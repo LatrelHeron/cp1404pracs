@@ -20,6 +20,7 @@ def main():
     driven = 115
     new_car.drive(driven)
     print(f"{new_car.vehicle} after having {driven} now has fuel: {new_car.fuel}")
+    print()
 
 
 main()
